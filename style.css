@@ -93,6 +93,10 @@ body{
     z-index: 999;
 }
 
+.nav-item{
+    z-index: 9999;
+}
+
 .search-button{
     border-radius: 10px;
     border: 1px solid #7C5CFF ;

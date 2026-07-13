@@ -13,7 +13,7 @@
 
 <header>
 
-<nav class="navbar w-100">
+<nav class="navbar navbar-expand-md w-100">
 
     <div class="container-fluid">
 
@@ -22,15 +22,18 @@
             LaunchPad Live
         </a>
 
-        <input type="checkbox" id="menu-toggle" hidden>
-
-        <label for="menu-toggle" class="menu-btn d-md-none">
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu">
             <i class="bi bi-list"></i>
-        </label>
 
-        <div class="nav-menu">
+        </button>
 
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarMenu">
+
+            <ul class="navbar-nav mx-auto">
 
                 <li class="nav-item">
                     <a class="nav-link" href="#hero">Home</a>
@@ -50,7 +53,7 @@
 
             </ul>
 
-            <div class="nav-actions">
+            <div class="nav-actions ms-md-auto">
 
                 <form class="search-form">
 
@@ -93,7 +96,6 @@
     </div>
 
 </nav>
-
     </header>
 
     <main>

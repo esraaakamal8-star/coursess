@@ -91,7 +91,6 @@ body{
     border:none;
     font-size:30px;
     z-index: 999;
-    color:white;
 }
 
 .search-button{
@@ -1270,6 +1269,10 @@ footer a:hover{
         #3730A3 45%,
         #2563EB 100%
     );
+}
+
+.dark-mode .navbar-toggler i{
+    color: white;
 }
 
 @media (max-width:992px){
